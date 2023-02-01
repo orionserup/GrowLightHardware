@@ -1,0 +1,747 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.09999999999999999,
+        "copper_line_width": 0.19999999999999998,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.049999999999999996,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": false,
+          "text_position": 0,
+          "units_format": 1
+        },
+        "fab_line_width": 0.09999999999999999,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.15,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
+        },
+        "silk_line_width": 0.15,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15,
+        "silk_text_upright": false,
+        "zones": {
+          "45_degree_only": false,
+          "min_clearance": 0.254
+        }
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "clearance|228600000|138811000|513cd33c-2401-465c-b45d-d8c3fbd4fbfc|ff268118-4b34-47b6-a755-21678762ed4a",
+        "clearance|59690000|138811000|66158093-460d-4da2-a448-bfe7ec4ca712|15961b19-fddf-406f-9a4a-4e5613734c09",
+        "clearance|59690000|65151000|99b7c57c-66f5-4ccb-9d16-fb4f8426d331|8d30c4c5-3484-4274-9de0-bc436c788afe",
+        "hole_clearance|228600000|138811000|ff268118-4b34-47b6-a755-21678762ed4a|513cd33c-2401-465c-b45d-d8c3fbd4fbfc",
+        "hole_clearance|59690000|138811000|15961b19-fddf-406f-9a4a-4e5613734c09|66158093-460d-4da2-a448-bfe7ec4ca712",
+        "hole_clearance|59690000|65151000|8d30c4c5-3484-4274-9de0-bc436c788afe|99b7c57c-66f5-4ccb-9d16-fb4f8426d331"
+      ],
+      "meta": {
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "copper_edge_clearance": "error",
+        "courtyards_overlap": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
+        "invalid_outline": "error",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "net_conflict": "warning",
+        "npth_inside_courtyard": "ignore",
+        "padstack": "error",
+        "pth_inside_courtyard": "ignore",
+        "shorting_items": "error",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_dangling": "warning",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zone_has_empty_net": "error",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
+        "max_error": 0.005,
+        "min_clearance": 0.15239999999999998,
+        "min_copper_edge_clearance": 0.508,
+        "min_hole_clearance": 0.30479999999999996,
+        "min_hole_to_hole": 0.381,
+        "min_microvia_diameter": 0.19999999999999998,
+        "min_microvia_drill": 0.09999999999999999,
+        "min_silk_clearance": 0.0,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.15239999999999998,
+        "min_via_annular_width": 0.1016,
+        "min_via_diameter": 0.508,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
+        "use_height_for_length_calcs": true
+      },
+      "track_widths": [
+        0.0,
+        0.254,
+        0.762,
+        1.524
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.3048
+        }
+      ],
+      "zones_allow_external_fillets": false,
+      "zones_use_no_outline": true
+    },
+    "layer_presets": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "GrowLight.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      }
+    ],
+    "meta": {
+      "version": 2
+    },
+    "net_colors": null
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "specctra_dsn": "",
+      "step": "../exports/GrowLight.step",
+      "vrml": "../exports/GrowLight.wrl"
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "a906f68a-133c-4ecc-bc2d-f9a59fd8ad3d",
+      ""
+    ],
+    [
+      "60954729-246a-4566-8723-7668c2f42e44",
+      "LED Row59"
+    ],
+    [
+      "b2d2b685-1b9b-4dee-a5df-df5a508be78e",
+      "LED Grid"
+    ],
+    [
+      "b4bbd05a-2f5a-4358-994d-23eeb52d871c",
+      "Control Circuitry"
+    ],
+    [
+      "c876b678-cb51-4680-80a8-3f925ab36a58",
+      "Voltage Regulator"
+    ],
+    [
+      "980f8af3-aaa0-4b70-86e4-5fcbc2bb7139",
+      "LED Row25"
+    ],
+    [
+      "89f790c9-ae79-41c7-b72f-26fb83550d6a",
+      "LED Row67"
+    ],
+    [
+      "7a83850c-deb4-4dec-94a4-e9c3d3c5a3e1",
+      "LED Row26"
+    ],
+    [
+      "4f54b1ae-f178-41d5-9065-3a821fc5da1e",
+      "LED Row68"
+    ],
+    [
+      "b52deb30-3621-47fe-a32a-b31e6c1bcdd7",
+      "LED Row28"
+    ],
+    [
+      "9f21bf38-707f-489c-9b58-f29267adfc50",
+      "LED Row66"
+    ],
+    [
+      "41368284-8ef8-40b6-8f84-89219e9548fe",
+      "LED Row27"
+    ],
+    [
+      "4508e16a-adff-4b85-81e5-f5405f3c8341",
+      "LED Row65"
+    ],
+    [
+      "1d58c4a6-d6e0-41be-b1f2-3de37a78647e",
+      "LED Row29"
+    ],
+    [
+      "958d402e-96f3-4b58-93af-1b6d0b1111be",
+      "LED Row55"
+    ],
+    [
+      "d77fb2ec-abd6-4980-9bfb-24fa4fd67bdf",
+      "LED Row31"
+    ],
+    [
+      "52bcc5d3-8b67-4e14-a98e-bd0890d18ed4",
+      "LED Row53"
+    ],
+    [
+      "4a220549-4784-440a-95fd-6d9c9cb070d6",
+      "LED Row30"
+    ],
+    [
+      "2eca6af0-f228-410a-8555-425bd3731036",
+      "LED Row54"
+    ],
+    [
+      "d62f3c25-d8af-429a-8c27-ad3c06767815",
+      "LED Row44"
+    ],
+    [
+      "77ee4329-d7de-4f70-897f-ed6f499758f7",
+      "LED Row52"
+    ],
+    [
+      "40583be4-eb9d-414f-95a8-10461957c62d",
+      "LED Row42"
+    ],
+    [
+      "24218bfb-cf59-4907-94ed-6255a5154f03",
+      "LED Row70"
+    ],
+    [
+      "c397e56d-423d-42e9-b9c3-01b0ef528be7",
+      "LED Row43"
+    ],
+    [
+      "bb371109-065f-4465-a79c-df976ca96659",
+      "LED Row69"
+    ],
+    [
+      "9c67e407-e0f8-446c-9ef5-f05155d54fee",
+      "LED Row32"
+    ],
+    [
+      "ef4599b4-0295-4353-8bf9-2439ff3224f0",
+      "LED Row56"
+    ],
+    [
+      "9a9ce9ff-bc8d-42e6-8f67-479a080a165e",
+      "LED Row33"
+    ],
+    [
+      "a13ba2bc-04f5-4650-a605-a6361c545c80",
+      "LED Row58"
+    ],
+    [
+      "e7c3d5da-599b-4e9a-ad01-a3a1fa7b8d44",
+      "LED Row35"
+    ],
+    [
+      "7b984431-b8c0-4c11-93d1-da3a1b11576b",
+      "LED Row57"
+    ],
+    [
+      "e06a1c36-f2c1-49ca-b352-f839aa31b241",
+      "LED Row34"
+    ],
+    [
+      "8385cd00-eabb-4c7c-a3cf-4c895589b05a",
+      "LED Row72"
+    ],
+    [
+      "e13c6125-e5a2-4986-8680-f38ada5f1caa",
+      "LED Row36"
+    ],
+    [
+      "e04bbc0b-cbd4-4a9e-8942-7500f61b9bb2",
+      "LED Row71"
+    ],
+    [
+      "898993fa-ccde-4e41-a4d3-9ce01d3d48e0",
+      "LED Row40"
+    ],
+    [
+      "aedbfceb-f921-4d20-bca0-a9499127c785",
+      "LED Row49"
+    ],
+    [
+      "1cb5f202-5bb3-4605-9c42-622b1a832be8",
+      "LED Row38"
+    ],
+    [
+      "88747d1b-d21a-488a-84ce-d6f4b068d16a",
+      "LED Row51"
+    ],
+    [
+      "e60954da-7198-4673-affa-cc6611db3be2",
+      "LED Row39"
+    ],
+    [
+      "2c546db2-dc3e-4b24-ae82-a0203f51631f",
+      "LED Row50"
+    ],
+    [
+      "1d6df371-01d3-40ec-80f9-79b4abfaa6e2",
+      "LED Row41"
+    ],
+    [
+      "d53fe3a3-c416-48fa-a3ca-63f6deb813c5",
+      "LED Row64"
+    ],
+    [
+      "e3340b70-5e19-41f1-8b3d-761d564da434",
+      "LED Row37"
+    ],
+    [
+      "8876e9bb-639b-4941-9ebb-6115bf8357b4",
+      "LED Row62"
+    ],
+    [
+      "17d98009-20dc-4c11-8ed1-cce8000fcc31",
+      "LED Row45"
+    ],
+    [
+      "7b12e6d1-fbec-4377-98db-b4a1634f9789",
+      "LED Row63"
+    ],
+    [
+      "91d6d4e8-d4bd-4eed-8e63-385ed4cc3656",
+      "LED Row48"
+    ],
+    [
+      "0e626681-e7da-4cc4-8d91-09b0055e3f47",
+      "LED Row61"
+    ],
+    [
+      "67cee4f2-fb8e-4674-bc17-aae7d83d149f",
+      "LED Row46"
+    ],
+    [
+      "fec0a86c-4a68-4693-9a5f-bf73cf63f72f",
+      "LED Row60"
+    ],
+    [
+      "06516110-42d0-44a5-b078-8b39833a182b",
+      "LED Row47"
+    ],
+    [
+      "213fdfe6-898a-429e-8e55-eba129ae48d1",
+      "LED Row83"
+    ],
+    [
+      "17d4e010-e220-401a-a6a5-e829cebf48dc",
+      "LED Row91"
+    ],
+    [
+      "ddcf04ab-93ee-406c-ad66-4bceab78d30a",
+      "LED Row92"
+    ],
+    [
+      "2550fc89-5a3d-42d1-bbd2-0be5094b858a",
+      "LED Row90"
+    ],
+    [
+      "37f777e0-8e37-4d30-b4d8-36ed15a73141",
+      "LED Row89"
+    ],
+    [
+      "49876354-0a47-4568-83cd-0f7031dcabd3",
+      "LED Row79"
+    ],
+    [
+      "cad9c939-74b2-404f-9588-13858e71fdd3",
+      "LED Row77"
+    ],
+    [
+      "02f92f02-91b3-4621-b391-ce7757a8c516",
+      "LED Row78"
+    ],
+    [
+      "2e0ac12b-6dd2-4a17-a029-216c336ef517",
+      "LED Row76"
+    ],
+    [
+      "75ca9958-94b3-4bb7-bfdb-cf54c7d99ed6",
+      "LED Row94"
+    ],
+    [
+      "6aad79f1-3568-4e6d-a537-6fe6d3ef8459",
+      "LED Row93"
+    ],
+    [
+      "47ec55a7-4112-43bd-a3a2-a01f81345ed7",
+      "LED Row80"
+    ],
+    [
+      "039a2783-96d4-4b36-bf21-441c549e2a5a",
+      "LED Row82"
+    ],
+    [
+      "33528933-96c8-4b2f-a172-574b090a9512",
+      "LED Row81"
+    ],
+    [
+      "7e9bf8ef-bf5f-4926-8cb7-61cf27c5a2d2",
+      "LED Row96"
+    ],
+    [
+      "95ddb493-ac4a-4d86-834c-15ca03e58eea",
+      "LED Row95"
+    ],
+    [
+      "aafbad13-9920-4dee-8794-a81cb940c118",
+      "LED Row73"
+    ],
+    [
+      "6803de0a-200d-471a-a854-748b11988ab5",
+      "LED Row75"
+    ],
+    [
+      "037f0e90-317e-4924-99d0-3051c6953d7b",
+      "LED Row74"
+    ],
+    [
+      "12424af4-5ab6-4b49-bd46-0af8135d3165",
+      "LED Row88"
+    ],
+    [
+      "0249695d-c786-4f1a-9dab-ec8a7324b69b",
+      "LED Row86"
+    ],
+    [
+      "7745eee6-b1fc-43b0-a4bd-d5ac7c81a030",
+      "LED Row87"
+    ],
+    [
+      "e866ef07-73b3-4c47-81f7-4fdefd406e21",
+      "LED Row85"
+    ],
+    [
+      "cc4f33ad-b23d-4efe-a005-79aba4bdbca9",
+      "LED Row84"
+    ]
+  ],
+  "text_variables": {}
+}

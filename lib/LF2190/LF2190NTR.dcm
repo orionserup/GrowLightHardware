@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LF2190NTR
+D High Side and Low Side Drivers Series
+K
+F https://www.littelfuse.com/~/media/electronics/datasheets/power_semiconductors/littelfuse_gate_drivers_lf2190n_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

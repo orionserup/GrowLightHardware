@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/../lib/espressif/libraries/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "LF2190NTR")(type "Legacy")(uri "${KIPRJMOD}/../lib/LF2190/LF2190NTR.lib")(options "")(descr ""))
+)
