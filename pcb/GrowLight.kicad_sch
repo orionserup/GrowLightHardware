@@ -744,7 +744,7 @@
       (reference "#PWR03") (unit 1) (value "Earth") (footprint "")
     )
     (path "/b4bbd05a-2f5a-4358-994d-23eeb52d871c/4be98dd8-c338-4c1a-945d-5db4a2ae0e26"
-      (reference "C1") (unit 1) (value "100nF") (footprint "")
+      (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/b2d2b685-1b9b-4dee-a5df-df5a508be78e/33e4c7f3-72bf-461d-a822-b619ff890c50/34825714-d89d-4b06-b46f-2d23cc223e4d/707224df-e2ae-4977-a628-8ee6df94a091"
       (reference "D1") (unit 1) (value "RED") (footprint "AA3528SRS:LED_PLCC-2")
