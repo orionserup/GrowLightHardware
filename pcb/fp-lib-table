@@ -1,5 +1,3 @@
 (fp_lib_table
-  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/../lib/espressif/footprints/Espressif.pretty")(options "")(descr ""))
-  (lib (name "LF2190")(type "KiCad")(uri "${KIPRJMOD}/../lib/LF2190")(options "")(descr ""))
   (lib (name "AA3528SRS")(type "KiCad")(uri "${KIPRJMOD}/../lib/AA3528SRS.pretty")(options "")(descr ""))
 )

@@ -31,9 +31,4 @@
   (fp_circle (center 0 0) (end 0 -1.25) (layer "F.Fab") (width 0.1) (fill none) (tstamp f154cd92-ada3-4b27-bd09-b43d7c2de3fe))
   (pad "1" smd rect (at -1.5 0) (size 1.5 2.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5d440233-cf4b-4d73-b2b4-08f095b9246e))
   (pad "2" smd rect (at 1.5 0) (size 1.5 2.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bfae2e89-43c2-4db3-8f7d-78937bea6625))
-  (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC-2.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
