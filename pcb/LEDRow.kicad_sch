@@ -211,7 +211,7 @@
     (property "Reference" "R6" (id 0) (at 97.79 83.8199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "39" (id 1) (at 97.79 86.3599 0)
+    (property "Value" "20" (id 1) (at 97.79 86.3599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (id 2) (at 96.266 85.344 90)
